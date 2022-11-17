@@ -1,0 +1,27 @@
+// src/style.scss
+* { padding: 0; margin: 0; list-style: none;}
+html, body, #app, .common-layout {
+  height: 100%;
+}
+.common-layout  {
+  .el-container {
+    height: 100%;
+    .el-aside {
+      background-color: #333;
+      color: #fff;
+    }
+    .el-container {
+      background-color: #efefef;
+      .el-header {
+        background-color: #ccc;
+      }
+      .el-main {
+        background-color: #fff;
+        margin: 16px;
+      }
+      .el-footer {
+        background-color: #ccc;
+      }
+    }
+  }
+}
